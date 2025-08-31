@@ -156,7 +156,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Email Support</h3>
                       <p className="text-gray-600 mb-2">For general inquiries and support questions:</p>
-                      <p className="text-blue-600 font-medium">support@snowdaycalculator.com</p>
+                      <p className="text-blue-600 font-medium">support@snowday-calc.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -169,7 +169,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Feedback & Suggestions</h3>
                       <p className="text-gray-600 mb-2">Help us improve our predictions and user experience:</p>
-                      <p className="text-blue-600 font-medium">feedback@snowdaycalculator.com</p>
+                      <p className="text-blue-600 font-medium">feedback@snowday-calc.com</p>
                     </div>
                   </div>
                 </CardContent>

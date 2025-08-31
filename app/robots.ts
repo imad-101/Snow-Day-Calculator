@@ -1,14 +1,19 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://snow-day-calculator.com' // Replace with your actual domain
+  const baseUrl = 'https://snowday-calc.com'
   
   return {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
-        disallow: ['/admin/', '/api/admin/'],
+        allow: [
+          '/',
+          '/about/',
+          '/contact/',
+          '/privacy/',
+          '/terms/'
+        ]
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
